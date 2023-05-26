@@ -4,40 +4,34 @@
     <!-- ..Title of Shoe Site. -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--imported google font Bebas Neue-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
-
-    <!--imported google font Plus Jakarta Sans-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet">
-
+    <title>Roise's Shoes</title>
+  
     <!--Tailwind stylesheet-->
     <link href="styles.css" rel="stylesheet">
-    <title>Working Women's Shoes</title>
+
   </head>
   <body>
     <header>
-    <!--company name and short purpose-->
+
+    <!--company name and short purpose statment-->
     <h1>logo/company name</h1>
       <h2>mission statement</h2>
-        <!-- navbar1 for basic assitance/shopping cart -->
-        <navbar>
+    <!--END company name and short purpose statment-->
+
+        <!--nav1 for basic assitance/shopping cart -->
+        <nav>
             <ul>
               <li>logo</li>
               <li><button>track order</button></li>
               <li><button>costumer service</button></li>
               <li><button>account</button></li>
-              <li><input>""</input><button>search</button></li>
+              <li><input type="search"></input><button>search</button></li>
               <li><button>shopping cart</button></li>
             </ul>
-        </navbar>
-        <!--navbar2 buttons to pages i.e. nurses, resturant, postal, construction-->
-        <navbar>
+        </nav>
+        <!--END nav1 for basic assitance/shopping cart -->
+        <!--nav2 buttons to pages i.e. nurses, resturant, postal, construction-->
+        <nav>
           <ul>
             <li><button>healthcare</button></li>
             <li><button>resturant</button></li>
@@ -46,23 +40,45 @@
             <li><button>warehouse</button></li>
             <li><button>clearance</button></li>
           </ul>
-        </navbar>
+        </nav>
+        <!--END nav2 buttons to pages i.e. nurses, resturant, postal, construction-->
     </header>
-    <article>
-      <!--as a carousel-->
-      <h2>bestsellers</h2>
-        <figure>bestsellers 1</figure>
-          <card>reviews</card>
-        <figure>bestsellers 2</figure>
-          <card>reviews</card>
-        <figure>bestsellers 3</figure>
-          <card>reviews</card>
-    </article>
-    <section>
 
-    </section>
-    <!--to contain an input search/filter form for shoe types/style-->
+    <!--Style as a carousel to display bestselling shoes with their features-->
+    <article>
+      <h2>bestsellers</h2>
+        <image>bestsellers 1</image>
+          <div><p>the features..</p></div>
+        <image>bestsellers</image>
+          <div><p>features</p></div>
+        <image>bestsellers 3</image>
+          <div><p>features</p></div>
+    </article>
+    <!--END Style as a carousel to display bestselling shoes with their features-->
+    <!--for reviews and testimonals of the products-->
     <aside>
+      <div><p>blah blah blah....</p></div>
+    </aside>
+    <!--END for reviews and testimonals of the products-->
+    <!--main section to display the products-->
+    <section>
+      <div class="container">
+        <div class="">
+          <div><image>1</image></div>
+          <div><image>2</image></div>
+          <div><image>3</image></div>
+          <div><image>4</image></div>
+          <div><image>5</image></div>
+          <div><image>6</image></div>
+          <div><image>7</image></div>
+          <div><image>8</image></div>
+        </div>
+      </div>
+    </section>
+    <!--END main section to display the products-->
+
+    <!--on the side to have an input search/filter form for shoe types/style-->
+    <form>
       <input type="color">color</input>
       <input type="range">$$</input>
       <input type="range">size</input>
@@ -71,29 +87,29 @@
       <input type="checkbox">brands</input>
       <input type="reset"><button>Reset</button></input>
       <input type="submit"><button>Submit</button></input>
-    </aside>
-    <!--copyright, links to company, app store, social media-->>
+    </form>
+    <!--END on the side to have an input search/filter form for shoe types/style-->
+
+    <!--copyright, links to company, app store, social media-->
     <footer>
       <h2>Company name/logo</h2>
       <p>mission statement<p>
       <aside>
-        <links>company info</links>
-        <links>about us</links>
-        <link>returns + shipping</links>
-        <links>privacy+security</links>
+        <a>company info</a>
+        <a>about us</a>
+        <a>returns + shipping</a>
+        <a>privacy+security</a>
       </aside>
       <hr>
       <button>
-        <link href="instagram">
-      </button>
+        <a href="instagram"></button>
       <button>
-        <link href="facebook">
-      </button>
+        <a href="facebook"></button>
       <button>
-        <link href="twitter">
-      </button>
+        <a href="twitter"></button>
       <hr>
       <p>Copyright 2023</p>
+      <!--END copyright, links to company, app store, social media-->
     </footer>
   </body>
 </html>
