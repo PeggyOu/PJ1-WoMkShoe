@@ -21,78 +21,79 @@
     <title>Working Women's Shoes</title>
   </head>
   <body>
+    <header>
+    <!--company name and short purpose-->
+    <h1>logo/company name</h1>
+      <h2>mission statement</h2>
+        <!-- navbar1 for basic assitance/shopping cart -->
+        <navbar>
+            <ul>
+              <li>logo</li>
+              <li><button>track order</button></li>
+              <li><button>costumer service</button></li>
+              <li><button>account</button></li>
+              <li><input>""</input><button>search</button></li>
+              <li><button>shopping cart</button></li>
+            </ul>
+        </navbar>
+        <!--navbar2 buttons to pages i.e. nurses, resturant, postal, construction-->
+        <navbar>
+          <ul>
+            <li><button>healthcare</button></li>
+            <li><button>resturant</button></li>
+            <li><button>postal</button></li>
+            <li><button>construction</button></li>
+            <li><button>warehouse</button></li>
+            <li><button>clearance</button></li>
+          </ul>
+        </navbar>
+    </header>
+    <article>
+      <!--as a carousel-->
+      <h2>bestsellers</h2>
+        <figure>bestsellers 1</figure>
+          <card>reviews</card>
+        <figure>bestsellers 2</figure>
+          <card>reviews</card>
+        <figure>bestsellers 3</figure>
+          <card>reviews</card>
+    </article>
+    <section>
 
-    <!--background color of full site-->
-    <div class="bg-yellow-50 w-full">  
-      <header>
-      <!-- navigation bar with buttons -->
-        <nav class ="w-11/12 bg-white mx-10 py-4">
-          <div class = "px-4 flex grid-cols-6 justify-between">
-            <div class="p-2">
-              <ul class="inline-flex text-sm">
-              <li><button class="bg-transparent mr-4 font-plus-jakarta-sans">Stories</button></li>
-              <li class="border-x mr-4"><button class="bg-transparent ml-4 mr-4 font-plus-jakarta-sans">New In</button></li>
-              <li><button class="bg-transparent font-plus-jakarta-sans">Products</button></li>
-              </ul>
-            </div>
-            <a class="text-5xl font-bebas-neue">AKG.</a>
-            <div class="p-2">
-              <ul class="inline-flex text-sm">
-                <li><button class="bg-transparent ml-4 font-plus-jakarta-sans">Search</button></li>
-                <li class="border-x ml-4"><button class="bg-transparent ml-4 mr-4 font-plus-jakarta-sans">Wishlist</button></li>
-                <li><button class="bg-transparent ml-4 font-plus-jakarta-sans">Cart</button></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <div class="bg-yellow-50 w-full h-auto">
-        <div class="flex-1">
-          <h1 class="p-10 uppercase text-6xl text-center justify-center font-bebas-neue">fashionable, quality, durable and best <br> shoes for everyone</h1>
-          
-          <!--parent div to center button-->
-          <div class="flex flex-col items-center justify-center">
-            <button class="bg-red-300 py-4 px-8">
-              <a class="uppercase text-white text-center font-bebas-neue">shop now</a>
-            </button>
-          </div>
-        </div>
-        <div class="grid grid-cols-4 gap-6 pt-10 m-20">
-
-          <!--aligned all images on bottom-->
-          <div class="flex flex-col justify-end"><img src="shoe1.jpg"></div>
-          <div class="flex flex-col justify-end"><img src="shoe2.jpg"></div>
-          <div class="flex flex-col justify-end"><img src="shoe3.jpg"></div>
-          <div class="flex flex-col justify-end"><img src="shoe4.jpg"></div>
-        </div>
-      </div>
-    </div>
-    <div class="bg-white">
-      <div class="flex-1 my-28 mx-20">
-        <h1 class="uppercase font-bebas-neue text-4xl">2022 collection</h1><br>
-        <a class="font-plus-jakarta-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet at nunc elit in porttitor tortor nulla.</a>
-      </div>
-      <div class="grid grid-cols-2 grid-row-1 gap-6 mx-20 my-20">
-
-        <!--wanting for both images to be the exact size-->
-        <div class="h-auto w-auto flex flex-col relative">
-          <img src="mens.png" class ="flex-1" alt="mens shoes">
-            <h2 class="absolute font-bebas-neue text-6xl text-black bottom-10 left-10"><a href="">_for men</a></h2>
-        </div>
-        <div class="h-auto w-auto flex flex-col relative">
-          <img src="womens.png" class="flex-1" alt="womens shoes">
-          <h2 class="absolute font-bebas-neue text-6xl text-black bottom-10 left-10"><a href="">_for women</a></h2>
-        </div>
-      </div>
-    </div>
-    <div class="bg-stone-300 w-full h-0.5"></div>
-    <!--goal to use carousel to display shoe options-->
-    <div class="bg-white w-full h-96">
-      <div class="flex-1 my-28 mx-20">
-        <h1 class="uppercase font-bebas-neue text-4xl">2022 new arrivals</h1><br>
-        <a class="font-plus-jakarta-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet at nunc elit in porttitor tortor nulla.</a>
-      </div>
-    </div>
-    <!--pivot from previous work. from this point on, only do the semantic structure-->
+    </section>
+    <!--to contain an input search/filter form for shoe types/style-->
+    <aside>
+      <input type="color">color</input>
+      <input type="range">$$</input>
+      <input type="range">size</input>
+      <input type="range">width</input>
+      <input type="checkbox">safety features</input>
+      <input type="checkbox">brands</input>
+      <input type="reset"><button>Reset</button></input>
+      <input type="submit"><button>Submit</button></input>
+    </aside>
+    <!--copyright, links to company, app store, social media-->>
+    <footer>
+      <h2>Company name/logo</h2>
+      <p>mission statement<p>
+      <aside>
+        <links>company info</links>
+        <links>about us</links>
+        <link>returns + shipping</links>
+        <links>privacy+security</links>
+      </aside>
+      <hr>
+      <button>
+        <link href="instagram">
+      </button>
+      <button>
+        <link href="facebook">
+      </button>
+      <button>
+        <link href="twitter">
+      </button>
+      <hr>
+      <p>Copyright 2023</p>
+    </footer>
   </body>
 </html>
